@@ -30,7 +30,7 @@ jobs:
       - name: Stage WebGL build
         run: |
           mkdir -p _site
-          cp -R "mod4 build/." _site/
+          cp -R "mod4-final-build/." _site/
           touch _site/.nojekyll
 
       - name: Upload artifact
